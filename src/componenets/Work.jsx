@@ -14,7 +14,7 @@ const WorkSkills = {
 const WorkSkillsArray = Object.entries(WorkSkills);
 export const Work = () => {
   return (
-    <div className="text-center">
+    <div id="Work" className="text-center">
       <button className="bg-accent w-32 h-8 rounded-2xl mt-6 mb-10">
         Work
       </button>

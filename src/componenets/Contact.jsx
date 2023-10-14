@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Contact = () => {
   return (
-    <div className=" py-12 bg-secondary w-full h-auto text-center">
+    <div id="Contact" className=" py-12 bg-secondary w-full h-auto text-center">
       <button className="bg-accent w-32 h-8 rounded-2xl ">Contact</button>
       <p className="text-gray-300 mt-10">
         Whats next? Feel free to reach out to me if you&apos;re looking for

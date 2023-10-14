@@ -31,7 +31,10 @@ export const About = () => {
   };
   const skillsArray = Object.entries(skills);
   return (
-    <div className="flex bg-secondary w-full h-auto text-center justify-center items-center flex-col">
+    <div
+      id="Skills"
+      className="flex bg-secondary w-full h-auto text-center justify-center items-center flex-col"
+    >
       <button className="bg-accent w-32 h-8 rounded-2xl mt-12">Skills</button>
       <div className="flex flex-wrap justify-between flex-grow mt-10 mx-24 max-w-7xl">
         {skillsArray.map(([skill, content], index) => (

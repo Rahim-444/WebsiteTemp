@@ -4,7 +4,7 @@ import { About } from "./componenets/About";
 import { Work } from "./componenets/Work";
 import { Contact } from "./componenets/Contact";
 import { Copyrights } from "./componenets/Copyrights";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
