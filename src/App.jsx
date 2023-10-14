@@ -4,12 +4,12 @@ import { About } from "./componenets/About";
 import { Work } from "./componenets/Work";
 import { Contact } from "./componenets/Contact";
 import { Copyrights } from "./componenets/Copyrights";
-import { HashRouter as BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <div className="my-0 mx-auto p-8 max-w-7xl">
           <Navbar />
           <Hero />
@@ -22,7 +22,7 @@ const App = () => {
         <div className="my-0 mx-auto p-8 max-w-7xl">
           <Copyrights />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };
