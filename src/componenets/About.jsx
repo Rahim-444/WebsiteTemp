@@ -35,7 +35,7 @@ export const About = () => {
       <button className="bg-accent w-32 h-8 rounded-2xl mt-12">Skills</button>
       <div className="flex flex-wrap justify-between flex-grow mt-10 mx-24">
         {skillsArray.map(([skill, content], index) => (
-          <div key={index} className="flex flex-col gap-4 text-2xl mb-10">
+          <div key={index} className="flex flex-col gap-4 text-2xl mb-24">
             <img
               src={content.path}
               className="w-10 h-10 self-center mx-10"
