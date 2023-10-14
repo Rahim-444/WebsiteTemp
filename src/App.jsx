@@ -28,8 +28,8 @@ const ComingSoonMessage = () => {
           <h1 className="text-gray-100 text-xl text-center mt-10">
             Meanwhite you can play Sudoku :)
           </h1>
-          <a href="https://rahim-444.github.io/Sudoku.github.io/">
-            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
+          <a href="https://rahim-4444.github.io/">
+            <button className="bg-blue-950 rounded-2xl px-6 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
               Play Sudoku
             </button>
           </a>
