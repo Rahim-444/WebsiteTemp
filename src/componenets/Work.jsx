@@ -47,14 +47,14 @@ export const Work = () => {
                 );
               })}
             </div>
-            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10">
+            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
               Check it out
             </button>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-20">
         <div className="flex w-5/6 h-auto bg-accent rounded-xl justify-between">
           <div className="flex bg-secondary w-1/2 rounded-l-xl flex-col text-center">
             <h1 className="mt-10 text-white font-bold text-2xl">
@@ -80,7 +80,7 @@ export const Work = () => {
                 );
               })}
             </div>
-            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10">
+            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
               Check it out
             </button>
           </div>
