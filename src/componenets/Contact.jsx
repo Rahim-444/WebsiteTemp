@@ -9,8 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const Contact = () => {
   return (
-    <div className="bg-secondary w-full h-auto text-center">
-      <button className="bg-accent w-32 h-8 rounded-2xl mt-12">Contact</button>
+    <div className=" py-12 bg-secondary w-full h-auto text-center">
+      <button className="bg-accent w-32 h-8 rounded-2xl ">Contact</button>
       <p className="text-gray-300 mt-10">
         Whats next? Feel free to reach out to me if you&apos;re looking for
         <br></br>a developer, have a query, or simply want to connect or chat!.
@@ -23,10 +23,10 @@ export const Contact = () => {
         you may also find me on these platforms
       </p>
       <div className="flex justify-center items-center gap-8">
-        <FontAwesomeIcon icon={faGithub} className="text-3xl g" />
-        <FontAwesomeIcon icon={faDiscord} className="text-3xl g" />
-        <FontAwesomeIcon icon={faLinkedin} className="text-3xl g" />
-        <FontAwesomeIcon icon={faInstagram} className="text-3xl g" />
+        <FontAwesomeIcon icon={faGithub} className="text-3xl " />
+        <FontAwesomeIcon icon={faDiscord} className="text-3xl " />
+        <FontAwesomeIcon icon={faLinkedin} className="text-3xl " />
+        <FontAwesomeIcon icon={faInstagram} className="text-3xl " />
       </div>
     </div>
   );

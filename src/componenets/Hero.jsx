@@ -10,18 +10,18 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export const Hero = () => {
   // <div className="relative mr-10 w-64 h-64">
   return (
-    <div className="mt-36 flex justify-between mb-10">
-      <div className="">
+    <div className="mt-36 flex justify-between mb-10 w-full">
+      <div className="w-1/2">
         <h1 className="text-white text-5xl font-semibold mb-10">
           Hi, I am Abderrahim 👋
         </h1>
-        <p className="text-gray-400">
-          I&apos;m a Software Engineer focused on Front End development
-          (React.js), here for creating <br></br> (and sometimes designing)
-          exceptional digital experiences that are fast, accessible,<br></br>
-          visually appealing, and responsive. I love learning new things
-          everything so im taking<br></br> the challenge of becoming a Full
-          Stack developer in the Future.
+        <p className="text-gray-400 text-justify w-full">
+          I&apos;m BELKACEMI Abderrahim a 2nd Year engineering student at USTHB
+          university focused on Front End development (React.js),I&apos;m here
+          for creating (and sometimes designing) exceptional digital experiences
+          that are fast, accessible, visually appealing, and responsive. I love
+          learning new things everything so im taking the challenge of becoming
+          a Full Stack developer in the Future.
         </p>
         <div className="flex">
           <FontAwesomeIcon icon={faLocationDot} className="text-3xl mt-10" />
