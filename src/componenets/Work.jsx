@@ -47,9 +47,15 @@ export const Work = () => {
                 );
               })}
             </div>
-            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
-              Check it out
-            </button>
+            <a
+              href="https://discord.gg/F4R5bK2MwE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
+                Check it out
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -67,6 +73,11 @@ export const Work = () => {
               discord server. Receive important emails in your Gmail inbox? No
               worries! Our bot efficiently retrieves them and posts the crucial
               information directly into your designated Discord channel.
+              <br></br>
+              <span className="text-red-700">
+                To see this live you have to join the server and Click browse
+                channels and then select live-delegue-email.
+              </span>
             </p>
             <div className="flex justify-around mt-10 mx-6 flex-wrap">
               {WorkSkillsArray[1][1].list.map((content, index) => {
@@ -80,9 +91,15 @@ export const Work = () => {
                 );
               })}
             </div>
-            <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
-              Check it out
-            </button>
+            <a
+              href="https://discord.gg/F4R5bK2MwE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-blue-950 rounded-2xl px-6 h-8 w-auto mt-10 mb-10 transition-colors hover:bg-accent">
+                Check it out
+              </button>
+            </a>
           </div>
           <div className="flex items-center justify-center w-1/2">
             <img

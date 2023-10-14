@@ -23,10 +23,30 @@ export const Contact = () => {
         you may also find me on these platforms
       </p>
       <div className="flex justify-center items-center gap-8">
-        <FontAwesomeIcon icon={faGithub} className="text-3xl " />
-        <FontAwesomeIcon icon={faDiscord} className="text-3xl " />
-        <FontAwesomeIcon icon={faLinkedin} className="text-3xl " />
-        <FontAwesomeIcon icon={faInstagram} className="text-3xl " />
+        <a href="https://github.com/Rahim-444" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={faGithub} className="text-3xl mt-10" />
+        </a>
+        <a
+          href="https://www.instagram.com/rahim._.444/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faInstagram} className="text-3xl mt-10" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/belkacemi-abderrahim-80320a184/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedin} className="text-3xl mt-10" />
+        </a>
+        <a
+          href="https://discord.com/users/543867530918363158"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faDiscord} className="text-3xl mt-10" />
+        </a>
       </div>
     </div>
   );

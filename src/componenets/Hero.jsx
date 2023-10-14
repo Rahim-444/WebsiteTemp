@@ -28,10 +28,34 @@ export const Hero = () => {
           <p className="text-gray-200 mt-10 ml-4 self-end">Algiers, Algeria</p>
         </div>
         <div className="flex gap-8">
-          <FontAwesomeIcon icon={faGithub} className="text-3xl mt-10" />
-          <FontAwesomeIcon icon={faFigma} className="text-3xl mt-10" />
-          <FontAwesomeIcon icon={faDiscord} className="text-3xl mt-10" />
-          <FontAwesomeIcon icon={faLinkedin} className="text-3xl mt-10" />
+          <a
+            href="https://github.com/Rahim-444"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} className="text-3xl mt-10" />
+          </a>
+          <a
+            href="https://www.figma.com/@Rahim444"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faFigma} className="text-3xl mt-10" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/belkacemi-abderrahim-80320a184/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="text-3xl mt-10" />
+          </a>
+          <a
+            href="https://discord.com/users/543867530918363158"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faDiscord} className="text-3xl mt-10" />
+          </a>
         </div>
       </div>
       <div className="relative w-56 h-66">

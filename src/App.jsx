@@ -4,22 +4,25 @@ import { About } from "./componenets/About";
 import { Work } from "./componenets/Work";
 import { Contact } from "./componenets/Contact";
 import { Copyrights } from "./componenets/Copyrights";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <div className="my-0 mx-auto p-8 max-w-7xl">
-        <Navbar />
-        <Hero />
-      </div>
-      <About />
-      <div className="my-0 mx-auto p-8 max-w-7xl">
-        <Work />
-      </div>
-      <Contact />
-      <div className="my-0 mx-auto p-8 max-w-7xl">
-        <Copyrights />
-      </div>
+      <BrowserRouter>
+        <div className="my-0 mx-auto p-8 max-w-7xl">
+          <Navbar />
+          <Hero />
+        </div>
+        <About />
+        <div className="my-0 mx-auto p-8 max-w-7xl">
+          <Work />
+        </div>
+        <Contact />
+        <div className="my-0 mx-auto p-8 max-w-7xl">
+          <Copyrights />
+        </div>
+      </BrowserRouter>
     </>
   );
 };
