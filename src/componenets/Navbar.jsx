@@ -10,21 +10,15 @@ export const Navbar = () => {
         </h1>
       </a>
       <ul className="flex gap-10 font-medium items-center hover:cursor-pointer">
-        <li>
-          <HashLink smooth to="#Skills">
-            Skills
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#Work">
-            Work
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="#Contact">
-            Contact
-          </HashLink>
-        </li>
+        <HashLink smooth to="#Skills">
+          <li className="px-3 py-1 rounded hover:bg-accent">Skills</li>
+        </HashLink>
+        <HashLink smooth to="#Work">
+          <li className="px-3 py-1 rounded hover:bg-accent">Work</li>
+        </HashLink>
+        <HashLink smooth to="#Contact">
+          <li className="px-3 py-1 rounded hover:bg-accent">Contact</li>
+        </HashLink>
         <button
           className="bg-white text-gray-900 p-1 pr-3 pl-3 rounded-lg font-semibold border-2 hover:border-blue-950   hover:text-white hover:bg-gray-900"
           onClick={() => {

@@ -48,7 +48,7 @@ export const Work = () => {
               })}
             </div>
             <a
-              href="https://discord.gg/F4R5bK2MwE"
+              href="https://rahim-444.github.io/Sudoku.github.io/"
               target="_blank"
               rel="noreferrer"
             >
