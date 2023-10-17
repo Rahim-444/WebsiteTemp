@@ -8,7 +8,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 export const Hero = () => {
-  // <div className="relative mr-10 w-64 h-64">
   return (
     <div className="mt-36 flex justify-between mb-10 w-full">
       <div className="w-1/2">
