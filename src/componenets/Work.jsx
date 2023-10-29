@@ -49,6 +49,30 @@ const WorkSkills = [
       </>
     ),
   },
+  {
+    Title: "Chess",
+    Icon: <FontAwesomeIcon icon={faChessBoard} className="mr-2" />,
+    img: {
+      Link: "https://images.chesscomfiles.com/uploads/v1/article/27319.746c2259.668x375o.c6cf8543e2d5@2x.png",
+      Width: "400",
+      Height: "400",
+    },
+    Link: "https://chess.com",
+    list: ["React", "Tailwind", "typescript"],
+    text: (
+      <>
+        Chess is a two-player strategy board game played on a checkered board
+        with 64 squares arranged in an 8×8 grid. The game is played by millions
+        of people worldwide. Chess is believed to be derived from the Indian
+        game chaturanga sometime before the 7th century. Chaturanga is also the
+        likely ancestor of the Eastern strategy games xiangqi, janggi, and
+        shogi. Chess reached Europe by the 9th century, due to the Umayyad
+        conquest of Hispania. The pieces assumed their current powers in Spain
+        in the late 15th century; the rules were standardized in the 19th
+        century.
+      </>
+    ),
+  },
 ];
 export const Work = () => {
   return (

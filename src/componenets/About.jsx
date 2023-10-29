@@ -5,10 +5,14 @@ import figmaPath from "../assets/figma-1-logo-svgrepo-com.svg";
 import gitPath from "../assets/git-icon-logo-svgrepo-com.svg";
 import linuxPath from "../assets/linux-icon.svg";
 import javaPath from "../assets/java-icon.svg";
+import tsPath from "../assets/typescript.svg";
 export const About = () => {
   const skills = {
     Javascript: {
       path: javascriptPath,
+    },
+    Typescript: {
+      path: tsPath,
     },
     Figma: {
       path: figmaPath,
@@ -36,7 +40,7 @@ export const About = () => {
       className="flex bg-secondary w-full h-auto text-center justify-center items-center flex-col"
     >
       <button className="bg-accent w-32 h-8 rounded-2xl mt-12">Skills</button>
-      <div className="flex flex-wrap justify-between flex-grow mt-10 mx-24 max-w-7xl">
+      <div className="flex flex-wrap justify-around flex-grow mt-10  max-w-7xl">
         {skillsArray.map(([skill, content], index) => (
           <div
             key={index}
